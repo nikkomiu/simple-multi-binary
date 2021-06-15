@@ -1,0 +1,14 @@
+version: '3.2'
+services:
+  one:
+    build:
+      dockerfile: deploy/one.Dockerfile
+      context: '.'
+  two:
+    build:
+      dockerfile: deploy/two.Dockerfile
+      context: '.'
+  three:
+    build:
+      dockerfile: deploy/three.Dockerfile
+      context: '.'
